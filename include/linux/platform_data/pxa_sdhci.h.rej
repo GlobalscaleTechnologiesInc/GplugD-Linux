@@ -1,0 +1,11 @@
+--- include/linux/platform_data/pxa_sdhci.h
++++ include/linux/platform_data/pxa_sdhci.h
+@@ -51,6 +51,8 @@
+ 	unsigned int	host_caps;
+ 	unsigned int	quirks;
+ 	unsigned int	pm_caps;
++	bool		pxav1_controller;  /* set if pxa168 */
++	unsigned int	delay_in_ms;
+ };
+ 
+ struct sdhci_pxa {

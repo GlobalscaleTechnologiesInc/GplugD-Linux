@@ -1,0 +1,11 @@
+--- arch/arm/mach-mmp/include/mach/regs-apmu.h
++++ arch/arm/mach-mmp/include/mach/regs-apmu.h
+@@ -27,6 +27,8 @@
+ #define APMU_DMA	APMU_REG(0x064)
+ #define APMU_GEU	APMU_REG(0x068)
+ #define APMU_BUS	APMU_REG(0x06c)
++#define APMU_PXA168_SDH2	APMU_REG(0x0e0)
++#define APMU_PXA168_SDH3	APMU_REG(0x0e4)
+ #define APMU_SDH2	APMU_REG(0x0e8)
+ #define APMU_SDH3	APMU_REG(0x0ec)
+ #define APMU_ETH	APMU_REG(0x0fc)
